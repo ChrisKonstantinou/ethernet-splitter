@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ethernet-splitter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,52 +69,6 @@ F 3 "~" V 6650 3675 50  0001 C CNN
 	1    6650 3650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4400 4900 6250 4900
-Wire Wire Line
-	6250 4900 6250 4050
-Wire Wire Line
-	4400 5000 6200 5000
-Wire Wire Line
-	6200 5000 6200 3950
-Wire Wire Line
-	6200 3950 6250 3950
-Wire Wire Line
-	4400 5100 6150 5100
-Wire Wire Line
-	6150 5100 6150 3850
-Wire Wire Line
-	6150 3850 6250 3850
-Wire Wire Line
-	4400 5200 6100 5200
-Wire Wire Line
-	6100 5200 6100 3750
-Wire Wire Line
-	6100 3750 6250 3750
-Wire Wire Line
-	4400 5300 6050 5300
-Wire Wire Line
-	6050 5300 6050 3650
-Wire Wire Line
-	6050 3650 6250 3650
-Wire Wire Line
-	4400 5400 6000 5400
-Wire Wire Line
-	6000 5400 6000 3550
-Wire Wire Line
-	6000 3550 6250 3550
-Wire Wire Line
-	4400 5500 5950 5500
-Wire Wire Line
-	5950 5500 5950 3450
-Wire Wire Line
-	5950 3450 6250 3450
-Wire Wire Line
-	4400 5600 5900 5600
-Wire Wire Line
-	5900 5600 5900 3350
-Wire Wire Line
-	5900 3350 6250 3350
 $Comp
 L MCU_ST_STM32F0:STM32F030C8Tx U1
 U 1 1 62A75E3F
